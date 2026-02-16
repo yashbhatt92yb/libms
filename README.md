@@ -32,3 +32,6 @@ Production-oriented single-user desktop Library Management System for librarians
 ## Notes
 - EF migrations can be added with `dotnet ef` in a Windows/.NET SDK environment.
 - Current UI is modernized with MaterialDesign themes and can be extended into dedicated module pages.
+
+## Visual Studio Run Guide
+- See `VISUAL_STUDIO_RUN_GUIDE.md` for complete build/run/validation/publish instructions on Windows + Visual Studio.
