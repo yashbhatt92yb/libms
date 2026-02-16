@@ -35,3 +35,12 @@ Production-oriented single-user desktop Library Management System for librarians
 
 ## Visual Studio Run Guide
 - See `VISUAL_STUDIO_RUN_GUIDE.md` for complete build/run/validation/publish instructions on Windows + Visual Studio.
+
+
+## CMake Wrapper (Optional)
+- Added top-level `CMakeLists.txt` to orchestrate `dotnet restore/build/publish`.
+- Example:
+  - `cmake -S . -B build`
+  - `cmake --build build --target abclibrary_restore`
+  - `cmake --build build --target abclibrary_build`
+  - `cmake --build build --target abclibrary_publish`

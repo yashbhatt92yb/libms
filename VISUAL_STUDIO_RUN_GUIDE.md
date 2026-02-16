@@ -236,6 +236,41 @@ If your organization has moved to a newer LTS baseline, perform a coordinated up
 
 ---
 
+
+## 14) Optional CMake wrapper
+
+A top-level `CMakeLists.txt` is included to orchestrate the same .NET commands via CMake targets.
+
+Configure:
+
+```powershell
+cmake -S . -B build
+```
+
+Run restore:
+
+```powershell
+cmake --build build --target abclibrary_restore
+```
+
+Run build:
+
+```powershell
+cmake --build build --target abclibrary_build
+```
+
+Publish WPF executable:
+
+```powershell
+cmake --build build --target abclibrary_publish
+```
+
+Notes:
+- `abclibrary_build` and `abclibrary_publish` require Windows desktop SDK support because the WPF project uses `Microsoft.NET.Sdk.WindowsDesktop`.
+- On non-Windows environments, use this wrapper mainly for `abclibrary_restore` and non-WPF project validation.
+
+---
+
 If you want, I can also provide:
 - a **step-by-step installer guide** (WiX or Inno Setup), and/or
 - a **team onboarding checklist** with screenshots for librarians.
