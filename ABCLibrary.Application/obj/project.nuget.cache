@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "soS5d8ADd/4=",
+  "success": true,
+  "projectFilePath": "/home/runner/work/libms/libms/ABCLibrary.Application/ABCLibrary.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/closedxml/0.104.2/closedxml.0.104.2.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/closedxml.parser/1.2.0/closedxml.parser.1.2.0.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/documentformat.openxml/3.1.1/documentformat.openxml.3.1.1.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/documentformat.openxml.framework/3.1.1/documentformat.openxml.framework.3.1.1.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/excelnumberformat/1.1.0/excelnumberformat.1.1.0.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/rbush/4.0.0/rbush.4.0.0.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/sixlabors.fonts/1.0.0/sixlabors.fonts.1.0.0.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/system.io.packaging/8.0.1/system.io.packaging.8.0.1.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/microsoft.windowsdesktop.app.ref/8.0.23/microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "/home/runner/work/libms/.codeql-scratch/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
