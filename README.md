@@ -44,3 +44,6 @@ Production-oriented single-user desktop Library Management System for librarians
   - `cmake --build build --target abclibrary_restore`
   - `cmake --build build --target abclibrary_build`
   - `cmake --build build --target abclibrary_publish`
+
+## Manual Rebuild From Scratch (Visual Studio)
+- See `IMPLEMENT_FROM_SCRATCH_VISUAL_STUDIO.md` for complete step-by-step creation of the full solution from a brand-new Visual Studio setup, including exact file copy map and publish steps.
